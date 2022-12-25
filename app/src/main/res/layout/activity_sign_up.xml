@@ -112,7 +112,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/send"
         android:layout_width="match_parent"
-        android:layout_height="55dp"
+        android:layout_height="wrap_content"
         android:backgroundTint="@color/black"
         android:text="SIGN UP"
         android:textColor="@color/white"
