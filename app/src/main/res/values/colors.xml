@@ -11,7 +11,9 @@
     <color name="borderColor">#B4B4B4</color>
     <color name="bg">#000A9B</color>
     <color name="bgyellow">#FFFF00</color>
-    <color name="blue">#050841</color>
+    <color name="dblue">#050841</color>
     <color name="cdclr">#848CFF</color>
     <color name="bgwhite">#25FFFFFF</color>
+    <color name="powclr">#AFB4FF</color>
+    <color name="blue">#00065D</color>
 </resources>

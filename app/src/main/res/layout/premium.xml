@@ -57,6 +57,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6">
 
         <LinearLayout
@@ -89,9 +91,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="General"
                     android:layout_gravity="center"
                     android:layout_marginStart="20dp"
+                    android:text="General"
                     android:textColor="@color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -123,9 +125,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Notification"
                     android:layout_gravity="center"
                     android:layout_marginStart="20dp"
+                    android:text="Notification"
                     android:textColor="@color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -135,8 +137,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/bgwhite"
                 android:layout_marginTop="3dp"
+                android:background="@color/bgwhite"
                 android:orientation="horizontal">
 
                 <androidx.cardview.widget.CardView
@@ -157,9 +159,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Privacy"
                     android:layout_gravity="center"
                     android:layout_marginStart="20dp"
+                    android:text="Privacy"
                     android:textColor="@color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -176,8 +178,8 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:backgroundTint="#C6211B"
                     android:layout_margin="10dp"
+                    android:backgroundTint="#C6211B"
                     app:cardCornerRadius="50dp">
 
                     <ImageView
