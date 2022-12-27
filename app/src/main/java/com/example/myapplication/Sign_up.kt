@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import kotlinx.android.synthetic.main.activity_sign_up.*
+import kotlinx.android.synthetic.main.login2.*
 
 class Sign_up : AppCompatActivity() {
 
@@ -14,6 +15,9 @@ class Sign_up : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
 
+        retur.setOnClickListener {
+            finish()
+        }
 
         send.setOnClickListener {
             startActivity(
