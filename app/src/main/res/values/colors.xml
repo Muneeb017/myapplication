@@ -16,4 +16,6 @@
     <color name="bgwhite">#25FFFFFF</color>
     <color name="powclr">#AFB4FF</color>
     <color name="blue">#00065D</color>
+    <color name="ligblue">#1877f2</color>
+    <color name="gray">#e4e6eb</color>
 </resources>

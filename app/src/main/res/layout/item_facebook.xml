@@ -16,9 +16,9 @@
 
         <ImageView
             android:id="@+id/image"
-            android:scaleType="center"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:scaleType="center"
             android:src="@drawable/ic_launcher_foreground" />
 
     </androidx.cardview.widget.CardView>
@@ -63,8 +63,8 @@
         android:backgroundTint="@color/purple_500"
         android:text="Confirm"
         android:textAllCaps="false"
-        android:textSize="18sp"
         android:textColor="@color/white"
+        android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/cardView2"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
