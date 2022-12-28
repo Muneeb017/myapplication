@@ -3,6 +3,7 @@ package com.example.myapplication
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.example.myapplication.databinding.ItemFacebookBinding
 
 class FacebookAdapter(val List: ArrayList<FriendModel>) :
@@ -21,6 +22,9 @@ class FacebookAdapter(val List: ArrayList<FriendModel>) :
         val model = List[position]
         holder.itemBinding.textView11.text = model.name
         holder.itemBinding.textView12.text = model.mutual.toString() + " mutual friends"
+
+        Glide.with(holder.itemView.context).load(model.image).into(holder.itemBinding.image)
+
     }
 
     override fun getItemCount(): Int {
