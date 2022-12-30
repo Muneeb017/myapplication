@@ -22,7 +22,7 @@ class PostAdapter(val List: ArrayList<PostModel>) :
     override fun onBindViewHolder(holder: PostHolder, position: Int) {
         val model = List[position]
         holder.itemBinding.textView15.text = model.name
-        holder.itemBinding.textView16.text = model.time.toString() + " min"
+        holder.itemBinding.textView16.text = model.time.toString() + " min ."
 
         Glide.with(holder.itemView.context).load(model.profileimage).into(holder.itemBinding.prof)
 
