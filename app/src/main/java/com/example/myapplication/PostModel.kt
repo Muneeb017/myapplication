@@ -4,5 +4,7 @@ data class PostModel(
     val profileimage: String,
     val name: String,
     val time: Int,
-    val postimage: String
+    val postimage: String,
+    val likes:Int,
+    val comment:Int
 )
