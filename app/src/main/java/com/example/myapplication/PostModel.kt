@@ -6,5 +6,5 @@ data class PostModel(
     val time: Int,
     val postimage: String,
     val likes:Int,
-    val comment:Int
+    val comment:Int,
 )

@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -21,6 +22,15 @@ class StorieAdapter(val Listm: ArrayList<StorieModel>) :
     override fun onBindViewHolder(holder: StorieHolder, position: Int) {
         val model = Listm[position]
         holder.itemBinding.textView14.text = model.name
+
+
+        holder.itemView.setOnClickListener {
+            val intent = Intent(holder.itemView.context,ActivityStorie::class.java)
+                .putExtra("profile",model.profileimage)
+                .putExtra("storie",model.storieimage)
+                .putExtra("stname",model.name)
+            holder.itemView.context.startActivity(intent)
+        }
 
         Glide.with(holder.itemView.context).load(model.profileimage).into(holder.itemBinding.profile)
 

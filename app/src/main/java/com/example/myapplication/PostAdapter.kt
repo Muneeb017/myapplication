@@ -28,7 +28,7 @@ class PostAdapter(val List: ArrayList<PostModel>) :
         holder.itemBinding.numLikes.text = model.likes.toString()
         holder.itemBinding.numComment.text = model.comment.toString()
 
-        holder.itemBinding.like.setOnClickListener {
+        holder.itemBinding.llLike.setOnClickListener {
             holder.itemBinding.like.setTextColor("#1877f2".toColorInt())
             holder.itemBinding.imLike.setColorFilter(holder.itemView.context.resources.getColor(R.color.ligblue))
         }
