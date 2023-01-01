@@ -140,7 +140,10 @@ class FacebookPost : AppCompatActivity() {
         val adapter = PostAdapter(list)
         recyclerView.adapter = adapter
 
-
+        editText3.setOnClickListener{
+            val intent = Intent(this,CreatePost::class.java)
+            startActivity(intent)
+        }
 
     }
 }

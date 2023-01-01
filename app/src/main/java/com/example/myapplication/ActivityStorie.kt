@@ -23,7 +23,7 @@ class ActivityStorie : AppCompatActivity() {
 
         textView15.text = name
         Glide.with(this).load(profileim).into(prof)
-        Glide.with(this).load(storieim).into(imageView7)
+        Glide.with(this).load(storieim).into(image)
 
     }
 }

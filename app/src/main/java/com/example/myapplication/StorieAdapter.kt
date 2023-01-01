@@ -23,7 +23,6 @@ class StorieAdapter(val Listm: ArrayList<StorieModel>) :
         val model = Listm[position]
         holder.itemBinding.textView14.text = model.name
 
-
         holder.itemView.setOnClickListener {
             val intent = Intent(holder.itemView.context,ActivityStorie::class.java)
                 .putExtra("profile",model.profileimage)
